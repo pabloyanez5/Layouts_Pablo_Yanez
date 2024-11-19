@@ -14,10 +14,10 @@ namespace Layouts.ViewModels
         // Constructor donde se inicializan los comandos
         public MainViewModel()
         {
-            GoToGridPageCommand = new Command(() => Shell.Current.GoToAsync(nameof(GridPage)));
-            GoToStackPageCommand = new Command(() => Shell.Current.GoToAsync(nameof(StackPage)));
-            GoToFlexPageCommand = new Command(() => Shell.Current.GoToAsync(nameof(FlexPage)));
-            GoToAbsolutePageCommand = new Command(() => Shell.Current.GoToAsync(nameof(AbsolutePage)));
+            GoToGridPageCommand = new Command(async () => await Shell.Current.GoToAsync("///GridPage"));
+            GoToStackPageCommand = new Command(async () => await Shell.Current.GoToAsync("///StackPage"));
+            GoToFlexPageCommand = new Command(async () => await Shell.Current.GoToAsync("///FlexPage"));
+            GoToAbsolutePageCommand = new Command(async () => await Shell.Current.GoToAsync("///AbsolutePage"));
         }
     }
 }
