@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Shell
+    
+    
     x:Class="Layouts.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Layouts"
     Shell.FlyoutBehavior="Disabled"
     Title="Layouts">
-
+    <ShellContent Title="Inicio" ContentTemplate="{DataTemplate local:MainPage}" />
+    <ShellContent Route="GridPage" ContentTemplate="{DataTemplate local:GridPage}" />
+    <ShellContent Route="StackPage" ContentTemplate="{DataTemplate local:StackPage}" />
+    <ShellContent Route="FlexPage" ContentTemplate="{DataTemplate local:FlexPage}" />
+    <ShellContent Route="AbsolutePage" ContentTemplate="{DataTemplate local:AbsolutePage}" />
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"

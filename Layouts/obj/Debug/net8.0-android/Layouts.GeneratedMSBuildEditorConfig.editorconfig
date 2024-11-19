@@ -16,6 +16,12 @@ build_property.ProjectDir = D:\QUINTO SEMESTRE UDLA\Progra IV\PY\Layouts\Layouts
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
+[D:/QUINTO SEMESTRE UDLA/Progra IV/PY/Layouts/Layouts/AbsolutePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Layouts.AbsolutePage.xaml
+build_metadata.AdditionalFiles.TargetPath = AbsolutePage.xaml
+build_metadata.AdditionalFiles.RelativePath = AbsolutePage.xaml
+
 [D:/QUINTO SEMESTRE UDLA/Progra IV/PY/Layouts/Layouts/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Layouts.App.xaml
