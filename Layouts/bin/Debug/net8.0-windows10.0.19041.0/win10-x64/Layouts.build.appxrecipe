@@ -214,6 +214,15 @@
     <AppxPackagedFile Include="D:\QUINTO SEMESTRE UDLA\Progra IV\PY\Layouts\Layouts\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\QUINTO SEMESTRE UDLA\Progra IV\PY\Layouts\Layouts\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image1.scale-100.png">
+      <PackagePath>image1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\QUINTO SEMESTRE UDLA\Progra IV\PY\Layouts\Layouts\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image2.scale-100.png">
+      <PackagePath>image2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\QUINTO SEMESTRE UDLA\Progra IV\PY\Layouts\Layouts\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\image3.scale-100.png">
+      <PackagePath>image3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\QUINTO SEMESTRE UDLA\Progra IV\PY\Layouts\Layouts\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Layouts.deps.json">
       <PackagePath>Layouts.deps.json</PackagePath>
     </AppxPackagedFile>

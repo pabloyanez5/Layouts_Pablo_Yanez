@@ -4,9 +4,9 @@
              x:Class="Layouts.StackPage"
              Title="Stack Page">
     <StackLayout VerticalOptions="Center">
-        <Label Text="Texto 1" FontSize="Large" />
-        <Label Text="Texto 2" FontSize="Medium" />
-        <Label Text="Texto 3" FontSize="Small" />
+        <Label Text="Ecuador" FontSize="Large" />
+        <Label Text="Argentina" FontSize="Medium" />
+        <Label Text="Brasil" FontSize="Small" />
         <Button Text="Ir a FlexLayout" Command="{Binding GoToFlexPageCommand}" />
     </StackLayout>
 </ContentPage>
